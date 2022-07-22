@@ -1,27 +1,28 @@
-composer 설치후
-
-laraval 설치
-composer global require laravel/installer
-
-laravel new boardPjt
-// laravel new boardPjt --jet
-// 는 로그인 등 기능이 더 추가된 프로젝트생성
-php artisan key:generate
-php artisan serve
-
-컨트롤러만들기
-php artisan make:controller BoardController
-// php artisan make:controller BoardController --resource
-
-뷰 만드는것은 직접만듬
-
-모델, 마이그레이션
-php artisan make:model Board --migration
-
-관련내용: 라라벨 엘로퀀트 ORM, 라라벨 쿼리빌더
-
-마이그레이션폴더 create_board_table.php 내용작성후 테이블만들기?
-php artisan migrate
+<h1>cmd 명령어 위주로 메모</h1>
+composer 설치후 <br>
+ <br>
+laraval 설치 <br>
+composer global require laravel/installer <br>
+ <br>
+laravel new boardPjt <br>
+// laravel new boardPjt --jet <br>
+// 는 로그인 등 기능이 더 추가된 프로젝트생성 <br>
+php artisan key:generate <br>
+php artisan serve <br>
+ <br>
+컨트롤러만들기 <br>
+php artisan make:controller BoardController <br>
+// php artisan make:controller BoardController --resource <br>
+ <br>
+뷰 만드는것은 직접만듬 <br>
+ <br>
+모델, 마이그레이션 <br>
+php artisan make:model Board --migration <br>
+ <br>
+관련내용: 라라벨 엘로퀀트 ORM, 라라벨 쿼리빌더 <br>
+ <br>
+마이그레이션폴더 create_board_table.php 내용작성후 테이블만들기? <br>
+php artisan migrate <br>
 
 <hr>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
